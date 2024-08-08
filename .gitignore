@@ -1,3 +1,7 @@
 /.venv
 /pg_data
 /.env
+/config
+/dags
+/logs
+/plugins
