@@ -2,6 +2,9 @@
 /pg_data
 /.env
 /config
-/dags
 /logs
 /plugins
+/airflow/config
+/airflow/logs
+/airflow/plugins
+/airflow/_pycache_
