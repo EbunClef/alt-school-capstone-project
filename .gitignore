@@ -1,0 +1,10 @@
+/.venv
+/pg_data
+/.env
+/config
+/logs
+/plugins
+/airflow/config
+/airflow/logs
+/airflow/plugins
+/airflow/_pycache_

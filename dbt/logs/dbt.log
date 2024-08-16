@@ -1,0 +1,30 @@
+[0m11:20:06.658801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF474BAD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF474B3E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF474B2E10>]}
+
+
+============================== 11:20:06.823608 | dc95f017-f049-4e9f-9d00-57c90e7b037c ==============================
+[0m11:20:06.823608 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:20:06.832858 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\young.ayodele\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m11:20:07.491657 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/young.ayodele/.dbt')}
+[0m11:20:07.495557 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:25:34.546332 [debug] [MainThread]: Starter project path: C:\Users\young.ayodele\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m11:25:34.624714 [info ] [MainThread]: 
+Your new dbt project "capstone_ecommerce_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:25:34.627576 [info ] [MainThread]: Setting up your profile.
+[0m11:35:15.542061 [info ] [MainThread]: Profile capstone_ecommerce_dbt written to C:\Users\young.ayodele\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:35:15.559952 [debug] [MainThread]: Command `dbt init` succeeded at 11:35:15.559952 after 909.62 seconds
+[0m11:35:15.559952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF4744E5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF584C5FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CF4098F750>]}
+[0m11:35:15.559952 [debug] [MainThread]: Flushing usage events
